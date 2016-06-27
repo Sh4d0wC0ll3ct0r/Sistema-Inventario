@@ -1,0 +1,220 @@
+﻿
+html {
+    background-color: #e2e2e2;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #fbfbfb;
+    color: #333;
+    font-size: .85em;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    margin: 0;
+    padding: 0;
+    text-align:center;
+}
+a{
+    text-decoration: none;
+}
+h3{
+  text-align:center;
+}
+h4{
+  padding: 0px;
+}
+img{
+  width: 100%;
+}
+section#contenedor{    
+	margin:0px auto;
+	max-width:100%;
+	padding: 5px;
+	text-align:center;
+}
+
+section#ListaMenu, section#Contenido{
+  border:solid 2px #e4e4e4;
+	border-radius: 5px;
+	display: inline-block;
+	margin: 0px;
+	max-width:10%;
+	max-height:50%;
+	padding:10px;
+	text-align:center;
+	vertical-align:top;
+	width:80%;
+}
+section#Contenido{
+	margin: 0px;
+	text-align: left;
+	max-width:95%;
+}
+#caja1{
+  height:250px;
+  width:250px;
+  border:solid 1px #e4e4e4;
+  display: inline-block;
+  margin: 10px;
+}
+#Contenido_texto{
+    opacity: 0;
+    width: 50px;
+}
+#footer{
+    background:#f6f6f6;
+}
+#caja2{
+	display: inline-block;
+    margin: 10px;
+}
+#login {
+    margin: -20px 150px 0px;
+    text-align: right;
+    font-size: .85em;
+    padding:0px;
+}
+#login a {
+    color:#999;
+    font-family:Arial;
+    margin-left: -30px;
+    text-decoration: none;
+}  
+#login a:hover {
+    color: #333;
+}
+#login li {
+     display: inline;
+     list-style: none;
+} 
+#Form{
+  height: 260px;
+  margin: -466px 412px;
+  position: absolute;
+  width: 40%;
+}
+#menu{	
+	padding: 0;
+    margin-top:-20px;
+}
+#menu a {
+	color: rgb(180,180,180);
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	padding: 5px;	
+}
+#menu a:hover {
+	color:rgb(0,162,232);
+	cursor: pointer;
+}
+#menu li {
+    border-bottom: 1px solid #576979;
+    list-style: none;
+    margin-left:-44px;
+    width:140px;
+    height: 30px;
+}
+#title{
+    color: white;
+    font-family: sans-serif;
+    padding: 10px 0px 0px;
+    text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+
+}
+.Button{ 
+    border-color: #0090CB;
+    border-radius: 3px;
+    height: 25px;
+}
+.Button:hover{
+    background-color: #0090CB;
+    color: #fff;
+    cursor:pointer;
+}
+.CampoTexto{
+    padding: 5px 5px;
+    font-size: 14px;
+    border: 1.7px solid #ccc;
+    border-radius: 4px;
+    width: 133px;
+}
+.content-wrapper {
+    border-bottom:solid 1px #e4e4e4;
+    height: 70px;
+    margin: -20px 0px 0px;
+    max-width: 100%;
+    background:#f6f6f6;
+}
+.content {
+    border:solid 1px #e4e4e4;
+    height: 575px;
+    max-width: 100%;
+    margin: 0px 140px;
+}
+.Formularios{
+	border:solid 2px #e4e4e4;
+    display: inline-block;
+    height:50%;
+    padding: 5px;
+    text-align: left;
+	max-width:100%;    
+}
+.fbk{
+	background: url(../Images/fbk1.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 50px;
+}
+.fbk:hover{
+	background: url(../Images/fbk2.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 50px;
+} 
+.google{
+	background: url(../Images/google.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 50px;
+}
+.google:hover{
+	background: url(../Images/google1.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 50px;
+}
+.twitter{
+	background: url(../Images/twitter.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 50px;
+}
+.twitter:hover{
+	background: url(../Images/twitter1.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 50px;
+}
+.youtube{
+	background: url(../Images/youtube.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 50px;
+}
+.youtube:hover{
+	background: url(../Images/youtube1.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 50px;
+}

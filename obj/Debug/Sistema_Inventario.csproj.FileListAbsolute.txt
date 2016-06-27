@@ -1,0 +1,6 @@
+C:\inetpub\wwwroot\Sistema_Inventario\Sistema_Inventario\bin\Sistema_Inventario.dll.config
+C:\inetpub\wwwroot\Sistema_Inventario\Sistema_Inventario\bin\Sistema_Inventario.dll
+C:\inetpub\wwwroot\Sistema_Inventario\Sistema_Inventario\bin\Sistema_Inventario.pdb
+C:\inetpub\wwwroot\Sistema_Inventario\Sistema_Inventario\obj\Debug\Sistema_Inventario.dll
+C:\inetpub\wwwroot\Sistema_Inventario\Sistema_Inventario\obj\Debug\Sistema_Inventario.pdb
+C:\inetpub\wwwroot\Sistema_Inventario\Sistema_Inventario\obj\Debug\Sistema_Inventario.csprojResolveAssemblyReference.cache

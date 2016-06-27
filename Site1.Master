@@ -1,0 +1,94 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Sistema_Inventario.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+     <meta name="tipo_contenido"  content="text/html;" http-equiv="content-type" charset="utf-8">
+    <title></title>
+    <link href="Css/Principal.css" rel="stylesheet" type="text/css"/>
+    <script  type="text/javascript" src="../Js/jquery-1.12.1.min.js"></script>
+    <script  type="text/javascript" src="../Js/Validar.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+  <header>
+       <div class="content-wrapper"> 
+       <h1><a id="title"> Sistema de Inventario</a></h1>
+           <div id="login">
+               <ul>
+                   <li> <a id="Iniciar" runat="server" href="Vistas/Login.aspx">Iniciar sesión </a></li>
+                   <li> <a id="Cerrar" runat="server" href="Vistas/CerrarSesion.aspx">Cerrar sesión </a></li>
+               </ul>
+
+           </div>
+       </div>
+  </header>
+    <div> 
+        <asp:ContentPlaceHolder ID="Contenido" runat="server">
+
+
+        </asp:ContentPlaceHolder>
+    </div>
+    
+    <div id="contentBody">
+        <h3>Funciones del Sistema</h3>
+        <div id="caja1">
+            <p> Compra de productos </p>
+            <asp:Image id="pastel" Width="150px" runat="server" ImageUrl="Images/Compras.png" />
+            <p> Compra de productos realizados a los provedores</p>
+        </div>
+        <div id="caja1">
+            <p> Compra de productos </p>
+            <asp:Image id="Image0" Width="150px" runat="server" ImageUrl="Images/Ventas.png" />
+            <p> Ventas de productos que has llevado a cabo el cliente</p>
+        </div>
+        <div id="caja1">
+            <p> Bodega de productos </p>
+            <asp:Image id="Image1" Width="150px" runat="server" ImageUrl="Images/Bodega.png" />
+            <p> Almacenamiento de productos para el Sistema de Inventario</p>
+        </div>
+        <div id="caja1">
+            <p> Registro de productos </p>
+            <asp:Image id="Image3" Width="150px" runat="server" ImageUrl="Images/Registros.png" />
+            <p> Registros de productos almacenados en el sistema de inventario</p>
+        </div>
+
+    </div>
+    <footer>
+        <div id="footer">
+            <h3>Siguenos en las redes sociales</h3>
+            <div id="caja2">
+                <a href="#" class="fbk" target="_blank" >&nbsp</a>
+                <p>Haste fan en nuestra red social</p>
+            </div>
+            <div id="caja2">
+                <a href="#" class="twitter" target="_blank" >&nbsp</a>
+                <p>Síguenos en nuestra red social</p>
+            </div>
+            <div id="caja2">
+                <a href="#" class="google" target="_blank" >&nbsp</a>
+                <p>Agréganos en tus círculos</p>
+            </div>
+            <div id="caja2">
+                <a href="#" class="youtube" target="_blank" >&nbsp</a>
+                <p>Visítanos en nuestro canal</p>
+            </div>
+
+            <div class="copy">
+                <p>
+                    &copy; <%: DateTime.Now.Year   %> Programadores HN
+                </p>
+            </div>
+
+
+        </div>
+
+    </footer>
+
+
+
+
+</body>
+</html>
